@@ -34,7 +34,8 @@ notesCtrl.createNewNotes = async (req, res) => {
       departamento,
       subdepartamento,
       periodo,
-      carrera
+      carrera,
+      user
 
     });
   const newNote = new Note({ area, cargo, departamento, subdepartamento, periodo, carrera  });
